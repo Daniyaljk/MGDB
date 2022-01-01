@@ -42,29 +42,31 @@ body{
     font-size: 78px;
 }
 
-.button-icon{
+.button-icon {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btn-group1{
     background-color: #E53261;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
 }
 
 .btn-instagram{
     background-color: #A6357D;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .btn-twitter{
     background-color: #DF5F3D;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .logo{
@@ -148,7 +150,7 @@ body{
 
 .title-discord{
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 5px;
 }
 
@@ -163,7 +165,7 @@ body{
 .button-small{
     font-size: 25px;
     font-weight: 600;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 .title-terms{
@@ -219,7 +221,7 @@ body{
     .button-small{
         font-size: 19px;
         font-weight: 600;
-        margin-top: 9px;
+        margin-top: 17px;
     }
     .title-discord{
         font-size: 19px;
