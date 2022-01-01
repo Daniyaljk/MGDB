@@ -219,7 +219,7 @@ body{
         width: 75%;
     }
     .button-small{
-        font-size: 19px;
+        font-size: 17px;
         font-weight: 600;
         margin-top: 17px;
     }
@@ -242,8 +242,8 @@ body{
         width: 100%;
     }
     .button-small {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 700;
-        margin-top: 9px;
+        margin-top: 15px;
     }
    }
