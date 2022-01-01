@@ -72,9 +72,173 @@ body{
     height: 300px;
     margin-top: -100px;
 }
+.left-logo{
+    width: 250px;
+    height: 300px;
+    margin-top: -100px;
+}
+
+.right-logo{
+    width: 250px;
+    height: 300px;
+    margin-top: -100px;
+}
 
 .title-terms{
     color: #fff !important;
     margin-bottom: 90px;
     margin-top: -30px;
 }
+
+.metaverse{
+    padding: 140px;
+}
+
+.box-left{
+    max-width: 50%;
+    background-color: #F5819F;
+    border-radius: 12px;
+    align-items: center;
+    padding: 2px;
+}
+
+.logo-left{
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5px;
+}
+
+.title-percent{
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.box-diamonds{
+    width: 100%;
+    background-color: #AC1C41;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.diamonds{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.box-right{
+    margin-left: auto;
+    background-color: #993783;
+    max-width: 60%;
+    border-radius: 12px;
+    align-items: center;
+    padding: 10px;
+}
+.key-icon{
+    width: 30px;
+}
+
+.title-right{
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.title-discord{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.box-footer-button{
+    width: 50%;
+}
+
+.footer-description{
+    width: 50%;
+}
+
+.button-small{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.title-terms{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        width: 200px;
+        height: 240px;
+        margin-top: -100px;
+    }
+    .left-logo{
+        width: 200px;
+        height: 240px;
+        margin-top: -100px;
+    }
+
+    .right-logo{
+        width: 200px;
+        height: 240px;
+        margin-top: -100px;
+    }
+
+    .box-footer-button{
+        width: 75%;
+    }
+  }
+
+  @media only screen and (max-width: 773px) {
+      .left-logo{
+          display: none;
+      }
+      .right-logo{
+       display: none;
+     }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .box-footer-button{
+        width: 90%;
+    }
+    .title-join {
+        font-size: 48px;
+    }
+    .footer-description{
+        width: 75%;
+    }
+    .button-small{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 9px;
+    }
+    .title-discord{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+   }
+
+   @media only screen and (max-width: 400px) {
+    .title-join {
+        font-size: 38px;
+    }
+
+    .footer-description {
+        width: 80%;
+    }
+    .box-footer-button {
+        width: 100%;
+    }
+    .button-small {
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 9px;
+    }
+   }
