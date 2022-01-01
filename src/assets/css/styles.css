@@ -1,0 +1,73 @@
+body{
+    margin : 0px;
+    padding: 0px;
+}
+
+.footer-top{
+    background-image: url("../img/footerTop.png");
+    width: 100%;
+    height: 100vh;
+    padding-top: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+
+.footer-bottom{
+    width: 100%;
+    background-image: url("../img/footerBottom.png");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+
+.icon{
+    width: 30px;
+    height: auto;
+}
+
+.icon-strong{
+    width: 45px;
+    height: auto;
+}
+
+.title-join{
+    text-shadow: 0px -10px 2px #585353;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 78px;
+}
+
+.button-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-group1{
+    background-color: #E53261;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-instagram{
+    background-color: #A6357D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-twitter{
+    background-color: #DF5F3D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 365px;
+    height: 416px;
+    margin-top: -100px;
+}
